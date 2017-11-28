@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1492430691 source:d:\c\bankquene\main.c
+	<stdio.h>
+	<stdlib.h>
+

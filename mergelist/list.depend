@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1489753899 source:d:\c\线性表的合并.c\main.c
+	<stdio.h>
+	<stdlib.h>
+

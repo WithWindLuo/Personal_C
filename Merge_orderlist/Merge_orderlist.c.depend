@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1491314588 source:d:\c\merge_orderlist.c\main.c
+	<stdio.h>
+	<stdlib.h>
+

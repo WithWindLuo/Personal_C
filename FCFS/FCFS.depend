@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510544792 source:d:\c\fcfs\main.c
+	<stdio.h>
+	<string.h>
+

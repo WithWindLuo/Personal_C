@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1489845621 source:d:\c\mergelist1.c\main.c
+	<stdio.h>
+	<stdlib.h>
+

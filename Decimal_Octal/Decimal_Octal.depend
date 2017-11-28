@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1491469276 source:d:\c\decimal_octal\fx.c
+	<stdio.h>
+	<stdlib.h>
+
+1491469647 source:d:\c\decimal_octal\main.c
+	<stdio.h>
+	<stdlib.h>
+	"head.h"
+
+1491469815 d:\c\decimal_octal\head.h
+

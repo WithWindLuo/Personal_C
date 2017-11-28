@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1491479842 source:d:\c\kuohaopipei\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1491479428 d:\c\kuohaopipei\header.h
+
