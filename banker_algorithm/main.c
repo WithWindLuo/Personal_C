@@ -1,6 +1,6 @@
-
 #include <stdio.h>
 #include <string.h>
+#include <windows.h>
 typedef int bool;
 #define false 0
 #define true !false
@@ -139,6 +139,7 @@ bool request(int process,RESOURCE *res)
 			}
 			else
 			{
+                system("cls");
 				printf("安全性检查失败。原因：系统将进入不安全状态，有可能引起死锁。\n");
 				printf("正在回滚...\n");
 				RollBack(process,res);
@@ -146,11 +147,13 @@ bool request(int process,RESOURCE *res)
 		}
 		else
 		{
+		    system("cls");
 			printf("安全性检查失败。原因：请求向量大于可利用资源向量。\n");
 		}
 	}
 	else
 	{
+	    system("cls");
 		printf("安全性检查失败。原因：请求向量大于需求向量。\n");
 	}
 	return false;
@@ -178,6 +181,7 @@ void Changetable(int process)
     Available.B += Allocation[process].B;
     Available.C += Allocation[process].C;
     Allocation[process].A=Allocation[process].B=Allocation[process].C=0;
+    system("cls");
     printf("进程P%d顺利完成并成功释放资源\n",process);
 
     return ;
@@ -228,6 +232,7 @@ int main(void)
 		else
 		{
 			printf("分配失败。\n");
+
 		}
 		printf("是否继续分配？(Y/N):");
 		fflush(stdin);
